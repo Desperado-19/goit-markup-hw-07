@@ -5,35 +5,38 @@
     border-bottom: 1px solid #ECECEC;
 }
 
-.header-container {
+.header__container {
     display: flex;
     align-items: center;
 }
 
-.logo-header {
+.logo {
     font-family: var(--secondary-font);
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--logo-first-part-color);
+}
+
+.header__logo {
     margin-right: 93px;
 }
 
-.logo-header-part {
+.header__logo-part {
     color: var(--logo-header-color);
 }
 
-.navigation {
+.header__navigation {
     margin-right: auto;
 }
 
-.header-nav-list {
+.menu-nav {
     display: flex;
     gap: 50px;
     position: relative;
 }
 
-.header-nav-link {
+.menu-nav__link {
     position: relative;
     font-weight: 500;
     font-size: 14px;
@@ -68,15 +71,15 @@
     }
 }
 
-.header-contact-list {
+.menu-contact {
     display: flex;
 }
 
-.header-contact-item {
+.menu-contact__item {
     margin-right: 30px;
 }
 
-.header-contact-icon {
+.menu-contact__icon {
     margin-right: 10px;
     fill: var(--secondary-text-color);
 
@@ -84,16 +87,16 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    .header-contact:hover & {
+    .menu-contact__link:hover & {
         fill: var(--hover-focus-color);
     }
     
-    .header-contact:focus & {
+    .menu-contact__link:focus & {
         fill: var(--hover-focus-color);
     }
 }
 
-.header-contact {
+.menu-contact__link {
     display: flex;
     align-items: center;
     font-weight: 500;

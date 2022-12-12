@@ -1,15 +1,15 @@
-.customers-list {
+.menu-icon {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.customers-item {
+.menu-icon__item {
     width: 170px;
     height: 92px;
 }
 
-.customers-link {
+.menu-icon__link {
     width: 100%;
     height: 100%;
     display: block;
@@ -29,17 +29,17 @@
     }
 }
 
-.customers-icon {
+.menu-icon__icon {
     fill: #AFB1B8;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    .customers-link:hover & {
+    .menu-icon__link:hover & {
         fill: var(--hover-focus-color);
     }
     
-    .customers-link:focus & {
+    .menu-icon__link:focus & {
         fill: var(--hover-focus-color);
     }
 }

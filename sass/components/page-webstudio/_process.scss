@@ -1,21 +1,21 @@
-.section-process {
+.process {
     padding-top: 0;
 }
 
-.process-list {
+.picture-list {
     display: flex;
     gap: 30px;
 }
 
-.process-item {
+.picture-list__item {
     width: calc((100% - 60px) / 3);
 }
 
-.process-top-wrap {
+.picture-list__top-wrap {
     position: relative;
 }
 
-.process-top-text {
+.picture-list__top-text {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
